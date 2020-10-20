@@ -10,9 +10,9 @@ namespace UdpEchoClient
         static void Main(string[] args)
         {
             string data = "";
-            byte[] sendBytes = new Byte[1024];
-            byte[] rcvPacket = new Byte[1024];
-            UdpClient client = new UdpClient();
+            var sendBytes = new Byte[1024];
+            var rcvPacket = new Byte[1024];
+            var client = new UdpClient();
             
             client.Connect(IPAddress.Parse("127.0.0.1"), 1000);
             IPEndPoint remoteIPEndPoint = new IPEndPoint(IPAddress.Any, 0);
