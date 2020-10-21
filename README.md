@@ -3,7 +3,7 @@
 
 ## How to build 
 
-  (sudo) docker build -f .\UdpServerWorkerService\Dockerfile --tag  udpserver .
+  <code>(sudo) docker build -f .\UdpServerWorkerService\Dockerfile --tag  udpserver .</code>
   
 ## How to run docker image in interative mode and network host mode
-  (sudo) docker run -it --name test --network host  udpserver
+  <code>(sudo) docker run -it --name test --network host  udpserver</code>
