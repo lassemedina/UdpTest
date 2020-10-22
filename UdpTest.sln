@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpEchoServer", "UdpServer\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpEchoClient", "UdpClient\UdpEchoClient.csproj", "{03DE17A9-B1ED-44BB-90E5-EE784F5E6DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpServerWorkerService", "UdpServerWorkerService\UdpServerWorkerService.csproj", "{3F809979-9B4E-4798-AD1B-5C150BB6F0A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpServerWorkerService", "UdpServerWorkerService\UdpServerWorkerService.csproj", "{3F809979-9B4E-4798-AD1B-5C150BB6F0A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
