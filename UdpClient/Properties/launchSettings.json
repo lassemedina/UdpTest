@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UdpEchoClient": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
